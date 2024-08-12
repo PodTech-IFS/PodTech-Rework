@@ -1,5 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.div-welcome{
+    display: flex;
+    justify-content: space-between;
+    padding: 3em;
+    height: 300px;
+    background-color: #470073;
+}
+
+.div-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-1{
+    font-size: 36px;
+    color: white;
+    font-weight: bold;
+}
+
+.title-2{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.div-image-initial-page{
+    display: flex;
+    align-items: center;
+    
+}
+
+.image-initial-page{
+    height: 240px;
+}
+
+@media screen and (max-width: 750px) {
+    
+    .div-welcome{
+        height: 200px;
+        padding: 0 0 1em 1em;
+    }
+
+    .title-1{
+        font-size: 15px;
+    }
+    
+    .title-2{
+        font-size: 20px;
+    }
+
+    .image-initial-page{
+        height: 140px;
+    }
+
 }
