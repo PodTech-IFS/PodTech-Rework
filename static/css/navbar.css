@@ -15,10 +15,17 @@ header {
 
 .container-navbar {
     display: flex;
+    position: fixed;
+    background-color: white;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0.5em 6em 0.5em 1em;
     border-bottom: solid 2px #522084;
+}
+
+.invisible-navbar{
+    height: 62px;
 }
 
 .logo-navbar {
@@ -59,6 +66,9 @@ header {
 
 .mobile-menu {
     display: none;
+    width: 100%;
+    position: fixed;
+    top: 61px;
 }
 
 @media screen and (max-width: 750px) {
@@ -104,7 +114,7 @@ header {
         flex-direction: column;
         text-align: center;
         padding-bottom: 1em;
-        border-bottom: solid 2px #522084;
+        border-bottom: solid 1px #522094;
         background-color: rgb(236, 236, 234);
     }
 
