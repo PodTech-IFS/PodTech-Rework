@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-.div-welcome{
+.div-welcome {
     display: flex;
     justify-content: space-between;
     padding: 3em;
@@ -15,67 +15,67 @@
     background-color: #470073;
 }
 
-.div-title{
+.div-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.title-1{
+.title-1 {
     font-size: 36px;
     color: white;
     font-weight: bold;
 }
 
-.title-2{
+.title-2 {
     font-size: 50px;
     color: white;
     font-weight: bold;
 }
 
-.div-image-initial-page{
+.div-image-initial-page {
     display: flex;
     align-items: center;
-    
+
 }
 
-.image-initial-page{
+.image-initial-page {
     height: 240px;
 }
 
-.text-podtech{
+.text-podtech {
     margin: 3em;
 }
 
-.text-podtech p{
+.text-podtech p {
     font-size: 25px;
 }
 
 @media screen and (max-width: 750px) {
-    
-    .div-welcome{
+
+    .div-welcome {
         height: 200px;
         padding: 0 0 1em 1em;
     }
 
-    .title-1{
-        font-size: 15px;
-    }
-    
-    .title-2{
-        font-size: 20px;
+    .title-1 {
+        font-size: 19px;
     }
 
-    .image-initial-page{
+    .title-2 {
+        font-size: 24px;
+    }
+
+    .image-initial-page {
         height: 140px;
     }
 
-    .text-podtech{
+    .text-podtech {
         margin: 2em;
     }
 
-    .text-podtech p{
-        font-size: 20px;
+    .text-podtech p {
+        font-size: 19px;
     }
 
 }
