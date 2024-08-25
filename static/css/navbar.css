@@ -24,8 +24,8 @@ header {
     border-bottom: solid 2px #522084;
 }
 
-.invisible-navbar{
-    height: 62px;
+.invisible-navbar {
+    height: 66px;
 }
 
 .logo-navbar {
@@ -71,11 +71,45 @@ header {
     top: 61px;
 }
 
+.all{
+    min-height: 100dvh;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #D9D9D9;
+    padding: 20px;
+    gap: 30px;
+}
+
+.footer-logo-IFS {
+    height: 50px;
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.footer-social-logo-item {
+    height: 50px;
+}
+
+.footer-social-logo {
+    display: flex;
+    gap: 10px;
+}
+
 @media screen and (max-width: 750px) {
 
     .container-navbar {
         padding: 0.5em 0.5em;
         border-bottom: solid 2px #522084;
+    }
+
+    .invisible-navbar {
+        height: 60px;
     }
 
     .logo {
@@ -115,7 +149,7 @@ header {
         text-align: center;
         padding-bottom: 1em;
         border-bottom: solid 1px #522094;
-        background-color: rgb(236, 236, 234);
+        background-color: white;
     }
 
     .mobile-menu .nav-item {
@@ -125,5 +159,27 @@ header {
 
     .open {
         display: block;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo-IFS {
+        height: 50px;
+    }
+
+    .footer-title {
+        text-align: center;
+        font-size: 28px;
+        order: 3;
+    }
+
+    .footer-social-logo-item {
+        height: 40px;
     }
 }

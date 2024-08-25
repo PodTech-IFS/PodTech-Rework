@@ -51,6 +51,28 @@
     font-size: 25px;
 }
 
+.div-podcast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.div-podcast-title {
+    display: flex;
+    justify-content: center;
+}
+
+.div-podcast-title h1 {
+    font-size: 35px;
+}
+
+.podcast {
+    height: 232px;
+    margin: 2em 0 8em 0;
+    width: 90%;
+}
+
 @media screen and (max-width: 750px) {
 
     .div-welcome {
@@ -59,11 +81,11 @@
     }
 
     .title-1 {
-        font-size: 19px;
+        font-size: 20px;
     }
 
     .title-2 {
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .image-initial-page {
@@ -76,6 +98,16 @@
 
     .text-podtech p {
         font-size: 19px;
+    }
+
+    .div-podcast-title h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .podcast {
+        height: 230px;
+        margin: 2em 0 0 0;
     }
 
 }
