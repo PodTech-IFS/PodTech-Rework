@@ -18,7 +18,8 @@ header {
 .container-navbar {
     display: flex;
     position: fixed;
-    background-color: white;
+    background-color: #ffffffb8;
+    backdrop-filter: blur(4px);
     width: 100%;
     justify-content: space-between;
     align-items: center;
