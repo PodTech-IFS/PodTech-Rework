@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.all{
+    min-height: 100dvh;
+}
+
 .div-title {
     margin: 3em 0 3em 0;
 }
@@ -13,7 +17,7 @@
 .title {
     text-align: center;
     color: #522084;
-    font-size: 35px;
+    font-size: 30px;
 }
 
 .all-members {
@@ -54,11 +58,4 @@
 
 .text-members{
     font-weight: bold;
-}
-
-@media screen and (max-width: 750px) {
-
-    .title {
-        font-size: 25px;
-    }
 }

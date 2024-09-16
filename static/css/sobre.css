@@ -5,3 +5,110 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.all {
+    min-height: 100dvh;
+}
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 9em;
+}
+
+.title {
+    text-align: center;
+    color: #522084;
+    font-size: 40px;
+}
+
+.div-text-sobre {
+    padding: 0em 10%;
+}
+
+.div-text-sobre p{
+    font-size: 20px;
+}
+
+.banner-page-sobre {
+    display: flex;
+    justify-content: center;
+    height: 25em;
+}
+
+.banner-sobre {
+    height: 20em;
+}
+
+.banner-page-ifs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15em;
+}
+
+.banner-ifs{
+    height: 5em;
+}
+
+@media screen and (max-width: 750px) {
+
+    .banner-page-sobre{
+        height: 22em;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .banner-sobre {
+        height: 15em;
+    }
+
+    .banner-ifs{
+        height: 4.5em;
+    }
+}
+
+@media screen and (max-width: 565px) {
+
+    .banner-page-sobre{
+        height: 12em;
+    }
+
+    .banner-sobre {
+        height: 9em;
+    }
+
+    .div-text-sobre p{
+        font-size: 15px;
+    }
+
+    .banner-ifs{
+        height: 2.5em;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-logo-IFS {
+        height: 50px;
+    }
+
+    .footer-title {
+        text-align: center;
+        font-size: 28px;
+        order: 3;
+    }
+
+    .footer-social-logo-item {
+        height: 40px;
+    }
+}
