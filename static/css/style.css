@@ -59,6 +59,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    gap: 30px;
 }
 
 .div-podcast-title {
@@ -110,7 +111,7 @@
 
     .podcast {
         height: 230px;
-        margin: 2em 0 0 0;
+        margin: 0;
     }
 
 }
