@@ -47,6 +47,7 @@
 }
 
 .text-podtech {
+    text-align: center;
     margin: 3em;
 }
 
@@ -97,6 +98,7 @@
     }
 
     .text-podtech {
+        text-align: center;
         margin: 2em;
     }
 
