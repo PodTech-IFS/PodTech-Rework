@@ -6,6 +6,44 @@
     box-sizing: border-box;
 }
 
-.all{
+.all {
     min-height: 100dvh;
+}
+
+.all-podcasts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block: 4em;
+
+}
+
+.podcasts {
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    width: 90%;
+}
+
+.podcast {
+    height: 232px;
+    width: 100%
+}
+
+.title-episode {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .all-podcasts {
+        gap: 3em;
+    }
+
+    .podcast {
+        height: 152px;
+        width: 100%
+    }
 }
